@@ -1,0 +1,72 @@
+
+
+/* app.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #090932;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #45a049;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(235, 240, 234);
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.confirmation {
+  text-align: center;
+  font-size: 18px;
+  color: #4CAF50;
+  margin-top: 20px;
+}
